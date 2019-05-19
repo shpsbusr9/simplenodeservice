@@ -6,7 +6,7 @@ pipeline {
   }
   
   parameters {
-    string(name: 'gitHubOrg', defaultValue: 'YOURNAME-keptn-sample', description: 'Name of your GitHub Organization keptn uses for storing configs')
+    string(name: 'gitHubOrg', defaultValue: 'shpsbusr9', description: 'Name of your GitHub Organization keptn uses for storing configs')
     string(name: 'project', defaultValue: 'keptn-sample', description: 'Your keptn project name!')
     string(name: 'stage', defaultValue: '', description: 'LEAVE BLANK - unless you want to promote an artifact into a specific stage other than the first one')
     string(name: 'service', defaultValue: 'simplenodeservice', description: 'Your keptn service name')
